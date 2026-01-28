@@ -2,10 +2,16 @@
 //
 
 #include <iostream>
+#include "Worker.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	Worker* w = new Worker[5]{ 
+		{"Ostov", 1980, "accountant", 400, "higher education"},
+		{"Naumov", 1950, "designer", 390, "higher education"},
+		{"Ostahov", 1991, "programmer", 800, "higher education"},
+		{"Vong", 2001, "teacher", 500, "higher education"},
+		{"Fits", 2005, "writer", 460, "higher education"}};
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
