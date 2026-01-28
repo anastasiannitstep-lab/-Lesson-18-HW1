@@ -13,6 +13,7 @@ int main()
 		{"Vong", 2001, "teacher", 500, "higher education"},
 		{"Fits", 2005, "writer", 460, "higher education"}};
 
+
 	for (int i = 0; i < 5; i++) {
 		if (w[i].YearOfBirth < 1966) {
 			cout << "---------------------------------------\n";
